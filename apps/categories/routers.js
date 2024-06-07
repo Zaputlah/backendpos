@@ -15,7 +15,7 @@ const {
 
 const categoriesRouter = express.Router();
 
-const PATH_CATEGORIES = "/categories"; // Menghapus 's' tambahan
+const PATH_CATEGORIES = "/categories";
 
 categoriesRouter.get("/", categoriesControllerList);
 categoriesRouter.get("/:id", categoriesControllerDetail);
